@@ -2,7 +2,7 @@
 
 # The Ultimate vimrc
 
-Over the last 10 years, I have used and tweaked Vim. This configuration is the ultimate vimrc (or at least my version of it).
+My version of amix's ultimate vimrc.
 
 There are two versions:
 
@@ -71,18 +71,6 @@ Just do a git rebase!
 NOTE: If you get `ModuleNotFoundError: No module named 'requests'`, you must first install the `requests` python module using `pip`, `pip3`, or `easy_install`.
 
     pip install requests
-
-## Some screenshots
-
-Colors when editing a Python file:
-
-![Screenshot 1](https://dnp4pehkvoo6n.cloudfront.net/07583008e4da885801657e8781777844/as/Python%20editing.png)
-
-[NERD Tree](https://github.com/scrooloose/nerdtree) plugin in a terminal window:
-![Screenshot 3](https://dnp4pehkvoo6n.cloudfront.net/ae719203166585d64728f28398f4b1b7/as/Terminal%20usage.png)
-
-Distraction free mode using [goyo.vim](https://github.com/junegunn/goyo.vim) and [vim-zenroom2](https://github.com/amix/vim-zenroom2):
-![Screenshot 4](https://dnp4pehkvoo6n.cloudfront.net/f0dcc4c9739148c56cbf8285a910ac41/as/Zen%20mode.png)
 
 
 ## Included Plugins
@@ -261,6 +249,9 @@ Insert the current date and time (useful for timestamps):
 
     iab xdate <C-r>=strftime("%d/%m/%y %H:%M:%S")<cr>
 
+AutoComplete (keyword completion)
+
+    CTRL+p
 
 ### Command line mappings
 
